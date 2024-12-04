@@ -1,0 +1,85 @@
+/* Style for the navbar container */
+.container-fluid {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  /* Style for the navbar brand (logo or text) */
+  .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    color: #ddd;
+  }
+  
+  /* Style for the navbar links */
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #444;
+    color: #ddd;
+  }
+  
+
+  
+  .nav-item.dropdown .dropdown-menu {
+    background-color: #333;
+    border: none;
+  }
+  
+  .nav-item.dropdown .dropdown-item {
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-item.dropdown .dropdown-item:hover {
+    background-color: #444;
+    color: #ddd;
+  }
+  
+  /* Disabled link */
+  .nav-item .nav-link.disabled {
+    color: #777;
+    pointer-events: none;
+  }
+  
+  /* Search bar */
+  .form-control {
+    width: 250px;
+    border-radius: 20px;
+  }
+  
+  .btn-outline-success {
+    background-color: #28a745;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin: 10px 0;
+    }
+  
+    .form-control {
+      width: 200px;
+    }
+  }
+  

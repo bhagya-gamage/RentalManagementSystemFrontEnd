@@ -1,6 +1,10 @@
 <div class="container">
     <h1>Add Rental</h1>
     <div>
+        <label for="totalCost">Rental ID :</label>
+        <input id="totalCost" type="text"  [(ngModel)]="rental.rentalId">
+    </div>
+    <div>
         <label for="rentalDate">Rental Date:</label>
         <input id="rentalDate" type="datetime-local" placeholder="Rental Date" [(ngModel)]="rental.rentalDate">
     </div>
@@ -14,9 +18,10 @@
     </div>
     <div>
         <label for="totalCost">Total Cost:</label>
-        <input id="totalCost" type="text" placeholder="Total Cost" [(ngModel)]="rental.totalCost">
+        <input id="totalCost" type="text" [(ngModel)]="rental.totalCost">
     </div>
     <div>
         <input type="button" value="Add Rental" (click)="addRental()">
     </div>
 </div>
+
