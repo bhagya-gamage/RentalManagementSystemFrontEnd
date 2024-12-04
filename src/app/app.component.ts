@@ -6,7 +6,7 @@ import { ManageCustomerPageComponent } from './page/manage-customer-page/manage-
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NavBarComponent,AddCustomerPageComponent,ManageCustomerPageComponent],
+  imports: [RouterOutlet,NavBarComponent,AddCustomerPageComponent,ManageCustomerPageComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

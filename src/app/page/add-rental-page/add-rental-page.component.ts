@@ -24,7 +24,6 @@ export class AddRentalPageComponent {
   public addRental(){
     this.http.post("http://localhost:8080/rental/add-rental",this.rental).subscribe((data)=>{
       alert("Rental Added!");
-      // this.alertLoginSuccessful();
     })
   }
 
