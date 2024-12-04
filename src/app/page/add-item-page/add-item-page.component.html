@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Add Item</h1>
+    <input type="text" placeholder="Name" [(ngModel)]="item.name">
+    <input type="text" placeholder="Availibility" [(ngModel)]="item.availability">
+    <input type="text" placeholder="Rental Per Day" [(ngModel)]="item.rentalPerDay">
+    <input type="text" placeholder="Fine Per Day" [(ngModel)]="item.finePerDay">
+
+    <input type="button" value="Add Item" (click)="addItem()">
+</div>
