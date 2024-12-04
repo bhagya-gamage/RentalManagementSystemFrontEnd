@@ -3,6 +3,7 @@ import { AddCustomerPageComponent } from './page/add-customer-page/add-customer-
 import { ManageCustomerPageComponent } from './page/manage-customer-page/manage-customer-page.component';
 import { AddItemPageComponent } from './page/add-item-page/add-item-page.component';
 import { ManageItemPageComponent } from './page/manage-item-page/manage-item-page.component';
+import { AddRentalPageComponent } from './page/add-rental-page/add-rental-page.component';
 
 export const routes: Routes = [
     {
@@ -20,5 +21,9 @@ export const routes: Routes = [
     {
         path:"app-manage-item-page",
         component:ManageItemPageComponent
+    },
+    {
+        path:"app-add-rental-page",
+        component:AddRentalPageComponent
     }
 ];
